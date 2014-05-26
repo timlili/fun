@@ -1,0 +1,114 @@
+/* css reset */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { 
+	margin:0; padding:0; 
+}
+body, button, input, select, textarea { 
+	font:12px/1.5tahoma, arial, \5b8b\4f53; 
+}
+h1, h2, h3, h4, h5, h6{ 
+	font-size:100%; 
+}
+address, cite, dfn, em, var { 
+	font-style:normal; 
+}
+code, kbd, pre, samp { 
+	font-family:couriernew, courier, monospace; 
+}
+small{ 
+	font-size:12px; 
+}
+ul, ol { 
+	list-style:none; 
+}
+a { 
+	text-decoration:none; 
+}
+a:hover { 
+	text-decoration:underline; 
+}
+sup { 
+	vertical-align:text-top; 
+}
+sub{ 
+	vertical-align:text-bottom; 
+}
+legend { 
+	color:#000; 
+}
+fieldset, img { 
+	border:0;
+}
+button, input, select, textarea { 
+	font-size:100%; 
+}
+table { 
+	border-collapse:collapse; border-spacing:0; 
+}
+
+/* 
+	loading effect
+	from: https://github.com/tobiasahlin/SpinKit
+*/
+.spinner {
+  position: absolute;
+  top: 50%;
+  margin: -15px 0 0 -25px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  } 20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+/* main */
+#main {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}

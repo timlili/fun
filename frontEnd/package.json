@@ -1,0 +1,18 @@
+{
+	"name": "MineApp",
+	"version": "0.0.1",
+	"description": "just for fun",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/timlili/fun.git"
+	},
+	"author": "Tim.li",
+	"devDependencies": {
+		"grunt": "~0.4.0",
+		"grunt-contrib-compass": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-concat": "*",
+		"grunt-contrib-jasmine": "*"
+	}
+}

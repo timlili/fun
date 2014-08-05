@@ -1,0 +1,28 @@
+{
+  "name": "MineApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/timlili/fun",
+  "authors": [
+    "timlili <tim_lili@126.com>"
+  ],
+  "description": "just for fun",
+  "main": "src",
+  "keywords": [
+    "mineapp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "~1.1.4",
+    "backbone": "~1.1.2",
+    "underscore": "~1.6.0",
+    "jquery": "~2.1.1"
+  }
+}
